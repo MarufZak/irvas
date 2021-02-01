@@ -1,0 +1,293 @@
+@media(max-width: 1200px) {
+    .header-nav__item {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .header-nav__clock {
+        margin: 0 20px;
+    }
+
+    .header-nav__pencil {
+        margin: 0 10px;
+    }
+
+    .header__content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .window__menu {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .window__card {
+        margin: 20px 0;
+    }
+
+    .header__subtitle {
+        margin-bottom: 75px;
+    }
+
+    .header__reg {
+        margin-top: 25px;
+    }
+
+    .part__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .type1, .type2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .type2 {
+        margin-top: 25px;
+    }
+
+    .types {
+        padding-bottom: 50px;
+    }
+
+    .part__cards {
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .garant__card {
+        padding: 0;
+    }
+
+    .part__block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .part__line {
+        display: none;
+    }
+    
+
+
+}
+
+@media(max-width: 992px) {
+
+    .part__title {
+        flex-wrap: wrap;
+        text-align: center;
+        width: auto;
+    }
+
+    .pay__title {
+        margin-bottom: 30px;
+    }
+
+    .pay {
+        padding: 30px 0;
+    }
+
+    .quest__link {
+        font-size: 15px;
+    }
+
+    .quest__sublink {
+        margin-right: 0;
+    }
+
+    .part__item2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part__cards {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .part__card {
+        margin: 20px 0;
+    }
+
+    .header-nav__pencil {
+        margin: 10px 0;
+    }
+
+    .header-nav__clock {
+        margin: 10px 0;
+    }
+
+    .garant__card {
+        width: 230px;
+    }
+
+    .pay__item {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pay__card {
+        margin: 10px 30px;
+    }
+
+    .discount__block1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .discount__reg {
+        margin: 20px auto;
+    }
+
+    .find__item {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .find__map {
+        width: var(--col-12);
+    }
+
+    .find__card {
+        margin: 20px 0;
+    }
+    
+    .find__card-title {
+        margin-bottom: 7px;
+    }
+
+    .find__card-text {
+        font-size: 15px;
+    }
+
+    .quest__item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .type1__item , .type2__item {
+        padding: 0 20px;
+    }
+    .type1__bottom , .type2__bottom {
+        flex-direction: column;
+    }
+
+    .type1__img , .type2__img {
+        height: 150px;
+    }
+
+    
+
+    .type1__img , .type2__img {
+        width: 100%;
+    }
+
+    
+
+    .footer__email {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .type1__img {
+        width: 100%;
+    }
+
+    
+
+}
+
+@media(max-width: 576px) {
+    .header__title {
+        font-size: 20px;
+        margin-bottom: 0;
+        line-height: normal;
+    }
+
+    .header__subtitle {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+
+    .title {
+        font-size: 25px;
+        width: auto;
+    }
+
+    .footer__contact {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .discount__subtitle {
+        text-align: center;
+    }
+
+    .footer__text {
+        display: none;
+    }
+
+    .find__block {
+        width: 100%;
+    }
+
+    .part__link {
+        text-align: center;
+    }
+
+    .part__item2 > img {
+        width: 100%;
+    }
+
+    .quest__sublink {
+        font-size: 15px;
+    }
+
+    .footer__item {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .header__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__card {
+        margin: 15px 0;
+    }
+
+    .header-nav__logo>p {
+        margin-left: 15px;
+    }
+
+    .header-nav__logo {
+        flex-direction: column;
+    }
+
+    .reg {
+        width: 100%;
+    }
+
+
+}
